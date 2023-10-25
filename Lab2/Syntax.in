@@ -21,7 +21,7 @@ digit ::= "0" | "1" |...| "9"
 type1 ::= "bool" | "string" | "character" | "integer" | "float"
 
 arraylist ::= identifier "[" nr "]" | identifier "[" nr "]", arraylist
-
+//nr is not defined 
 arraydecl ::= arraylist -> type1
 
 type  ::= type1|arraydecl
