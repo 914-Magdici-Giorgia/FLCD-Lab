@@ -57,4 +57,4 @@ Lexic:
 	  
 5.bool
 
-	  bool:=0|1
+	  bool:="0"|"1"
